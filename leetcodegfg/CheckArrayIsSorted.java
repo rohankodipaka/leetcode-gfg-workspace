@@ -3,8 +3,8 @@ package com.leetcodegfg;
 public class CheckArrayIsSorted {
     public static void main(String[] args) {
         int[] numbers = {1,2,8,4,5};
-        System.out.println(checkIfArrayIsSorted(numbers)); //Brute Force Approach
-        System.out.println(isSorted(numbers)); //Optimal Approach
+        System.out.println(checkIfArrayIsSorted(numbers)); //Brute Force Approach(Using two for loops)
+        System.out.println(isSorted(numbers)); //Optimal Approach(Single Traversal)
     }
 
     public static boolean checkIfArrayIsSorted(int[] numbers){
