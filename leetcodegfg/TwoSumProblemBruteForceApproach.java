@@ -27,7 +27,7 @@ public class TwoSumProblemBruteForceApproach {
         return "NO";
     }
 
-
+    //2nd variant
     public static int[] returnPairWithGivenSum(int[] numbers, long targetSum){
         for(int i=0; i< numbers.length; i++){
             for(int j=i+1; j< numbers.length; j++){
